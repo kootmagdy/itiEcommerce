@@ -1,0 +1,90 @@
+#login h1{
+    font-weight:900
+}
+#login .container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+#login .box{
+    width:350px;
+    height:460px;
+    font-size:16px;
+    padding:40px 40px;
+    background-color: #0f044c;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+}
+
+#login .user{
+    margin-top: 50px;
+}
+
+#login .fas{
+    position: absolute;
+}
+
+#login input{
+    width:90%;
+    margin-bottom:25px;
+    padding:0 30px 15px;
+    font-size:16px;
+    border:none;
+    border-bottom: 1px solid #141e75;
+    outline:none;
+    background-color: #0f044c;
+    color: #fff;
+}
+
+#login input:focus{
+    border-bottom: 1px solid #eeeeee;
+}
+
+#login .reset-password{
+    color:#ff7f50;
+    text-align:right;
+    margin-top:0px;
+    font-size:12px;
+}
+
+#login .login-btn{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+#login .btn{
+    display:block;
+    width:80%;
+    padding:15px;
+    background-color: #eeeeee;
+    color:#0f044c;
+    border:none;
+    border-radius:20px;
+    font-size:20px;
+    font-weight:600;
+    opacity:0.8;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#login .btn:hover{
+    opacity:1;
+}
+
+#login .signup span{
+    color:#7fb8e6;
+}
+
+#login .signup span::hover{
+    color:#3793df
+}
+
+#login a{
+    text-decoration: none;
+}
